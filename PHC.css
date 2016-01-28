@@ -21,7 +21,6 @@
 .jumbotron {
   background-image:url(http://p1.pichost.me/i/54/1771935.jpg);
   height: 500px;
-  background-repeat: no-repeat;
   height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -59,4 +58,11 @@
 }
 .learn-more p {
   text-align: justify;
+}
+h3 {
+margin-left: 2%;
+}
+
+.h3 p {
+  margin-left: 5%;
 }
