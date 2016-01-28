@@ -41,7 +41,7 @@
 
 .jumbotron p {
   font-size: 20px;
-  color: #fff;
+  color: #fff;;
 }
 
 .learn-more {
@@ -56,4 +56,7 @@
 
 .learn-more a {
   color: #00b0ff;
+}
+.learn-more p {
+  text-align: justify;
 }
