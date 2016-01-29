@@ -1,0 +1,23 @@
+.jumbotron {
+  background-image: url('/Users/parkercatalano/desktop/IMG_0827.jpg');
+  height: 500px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Georgia', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;;
+}
