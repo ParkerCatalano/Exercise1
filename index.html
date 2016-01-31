@@ -26,7 +26,7 @@
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Writing<span class="caret"></span></a>
          <ul class="dropdown-menu">
-            <li><a href="#">REALISM</a></li>
+            <li><a data-toggle="modal" data-target="#myModal">REALISM</a></li>
              <li><a href="#">MODERN LIT</a></li>
            <li><a href="#">HORROR FILM</a></li>
           <li role="separator" class="divider"></li>
@@ -103,5 +103,25 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
       <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Realism</h4>
+      </div>
+      <div class="modal-body">
+        This is my realism essay
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>
