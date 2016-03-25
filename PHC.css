@@ -4,6 +4,8 @@
 
 .img-circle {
   float: left;
+  width:120px;
+  height:120px;
   }
 
 .nav a {
