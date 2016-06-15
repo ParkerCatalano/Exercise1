@@ -24,8 +24,9 @@
   background-image:url("images/HGMNY2.jpg");
   height: 500px;
   height: 350px;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: cover;
+  background-size: contain;
 }
 
 .jumbotron .container {
