@@ -24,7 +24,7 @@
   background-image:url("images/HGMNY2.jpg");
   height: 500px;
   height: 350px;
-  background-repeat: repeat-y;
+  background-repeat: repeat-x;;
   background-size: cover;
   background-size: contain;
 }
