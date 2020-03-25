@@ -1,16 +1,14 @@
 
 <!DOCTYPE html>
 <html>
-
   <head>
+    <title>PHC</title>
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-
     <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <link rel="stylesheet" href="PHC.css">
-
-  </head>
-
-  <body>
+ </head>
+   <body>
     <div class="nav">
       <div class="container">
         <div class="row">
@@ -25,45 +23,48 @@
           <li><a href="http://cargocollective.com/parkercatalano">Portfolio</a></li>
         </ul>
         <ul class="pull-right">
-          <li><a href="#">shop</a></li>
-          <li><a href="http://instagram.com/parkercatalano">instafollow</a></li>
-          <li><a href="#">About</a></li>
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Writing<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a data-toggle="modal" data-target="#myModal">REALISM</a></li>
+            <li><a data-toggle="modal" data-target="#myModal2">MODERN LIT (thesis)</a></li>
+            <li><a data-toggle="modal" data-target="#myModal3">HORROR FILM</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a data-toggle="modal" data-target="#myModal4">THE BODY</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a data-toggle="modal" data-target="#myModal5">CMMU (prisons)</a></li>
+            <li><a data-toggle="modal" data-target="#myModal6">GLASSWAVES (short story)</a></li>
+        </ul>
+          <li><a href="http://instagram.com/parkercatalano">instagram</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </div>
     </div>
 
     <div class="jumbotron">
       <div class="container">
-        <h1>Parker Hills Catalano</h1>
-        <p> original art + music from a bay area native living in portland</p>
-        <a href="http://www.soundcloud.com/razwel">RAZWEL...</a>
       </div>
     </div>
     <div class="aboutme">
         <div class="container">
           <div class="row">
+
             <div class="col-md-12">
-              <h2>Life Thus Far...<img src="https://scontent.cdninstagram.com/hphotos-xft1/t51.2885-19/s150x150/12555863_1510508279251359_2142713834_a.jpg" alt="pk" class="img-circle"/></h2>
-              <p>Since I was very young I have been extremely motivated to draw and make art with various mediums.  I eventually got into an art High School in San Francisco where I studied visual art for three years.  Although my college career ended up being a Literary one, I am still as fond of visual art as I ever was, and feel that I will be able to incorporate my skills into the programming and development world in a design capacity."I turned back to the moon, thinking to myself, the moon doesn't seem to care what one thinks, that it looked like a drum, and smiled at my harmless megalomania" (Grass 366). Under the assumption that the body inscribes experience and history on and within itself, the question of agency is prevalent in terms of the extent to which we govern our bodies as such. Within the group of marked bodies, a specific modality of knowledge based on witheld significancies is established which is the essential code of conduct imposed from without.
-              </p>
-              </div>
-              <div class="row">
-            <div class="col-md-12">
-            <h2>Work Experience</h2>
-            <p>I began working at a startup called MOG founded by my close family friend David Hyman, Co-founder of the track-finding software Gracenote in 2006.  It was a summer job and I was doing mostly QA and beta testing for the site's various widgets and extensions, as well as some blog post editing.  It was technically a paid internship, and I was very fortunate to be able to experience a workplace like that at my age.  It taught me a lot of very valuable lessons about the strtup world and the problems that face even a well funded website.
-            </p>
-          </div>
-            <div class="col-md-12">
+            <h1>Parker Hills Catalano</h1>
+            <p>Original projects + design from a San Francisco native living in Oakland</p>
             <h2>My Projects + Art</h2>
             <h3>Github Projects</h3>
             <li>
               <ul><a href="https://github.com/ParkerCatalano/hangman" class="bg-warning">https://github.com/ParkerCatalano/hangman</a></ul>
+            <ul><a href="https://github.com/ParkerCatalano/hangman" class="bg-info">https://github.com/ParkerCatalano/hangman</a></ul>
+            <ul><a href="https://github.com/ParkerCatalano/DOM" class="bg-warning">https://github.com/ParkerCatalano/DOM</a></ul>
             <ul><a href="https://github.com/ParkerCatalano/introwebsites_epicodus" class="bg-success">https://github.com/ParkerCatalano/introwebsites_epicodus</a></ul>
             <ul><a href="https://github.com/ParkerCatalano/alternate_website" class="bg-info">https://github.com/ParkerCatalano/alternate_website</a></ul>
             <ul><a href="https://github.com/ParkerCatalano/1-20-16" class="bg-warning">https://github.com/ParkerCatalano/1-20-16</a></ul>
+            <ul><a href="https://github.com/ParkerCatalano/patagonia" class="bg-success">https://github.com/ParkerCatalano/patagonia</a></ul>
           </li>
           </div>
-          </div>
+        </div>
 
 
           <div class="col-md-4">
@@ -87,25 +88,121 @@
             </div>
 
     <div class="learn-more">
-	  <div class="container">
-		<div>
-	      <div>
 			<h3>HGMNY</h3>
-			<p>The Bay Area's premier show promotion company and it's affiliated artists, including yours truly AKA RAZWEL.</p>
-			<p><a href="https://soundcloud.com/razwel">Listen to Razwel music</a></p>
-	      </div>
-		  <div>
+			<p>The Bay Area's premier electronic and hip-hop show promotion company + it's affiliated artists, including yours truly AKA PKW.</p>
+			<p><a href="https://soundcloud.com/papakilowhiskey">Listen to PKW music</a></p>
 			<h3>Webpage Design</h3>
 			<p>Various projects that I have worked on through Github for classes etc.</p>
-			<p><a href="https://github.com/ParkerCatalano">checkout some of my website designs</a></p>
-		  </div>
-		  <div>
+			<p><a href="https://github.com/ParkerCatalano">checkout some of my web and app designs</a></p>
 			<h3>Instagram</h3>
-			<p>Where I post most of my recent art and drawings as I am working on them or if I just finished them.<a href="http://instagram.com/parkercatalano" class="btmrght">instagram</a></p>
-			<p><a href="#">Contact Parker Catalano</a></p>
+			<p>Where I post most of my recent art and drawings as I am working on them or if I just finished them.</p>
+      <p><a href="http://instagram.com/parkercatalano">instagram</a></p>
+			<p><a href="mailto:parkercatalano@gmail.com?Subject=Hello%20PK" target="_top">Contact Parker Catalano</a></p>
 		  </div>
 	    </div>
-	  </div>
-	</div>
+	    </div>
+	    </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/jquery-1.12.0.js"></script>')</script>
+      <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Realism</h4>
+        <iframe src="https://docs.google.com/document/d/151LceeLgdyROGHG6ex_MHBmB75daPAOiVfdWtaFjFjM/edit" width= "100%" height= "800px"></iframe>
+      </div>
+      <div class="modal-body"><a href="file:///Users/parkercatalano/phcart_website/phcart_website/index.html#" class="btn btn-primary" href="#my_modal" data-toggle="modal" data-book-id="my_id_value">next</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal2" tabindex="0" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modern Literature (Thesis)</h4>
+        <iframe src="https://docs.google.com/document/d/1Gj3gLcwdAOgw0UW4vWdKILz3iBVXtxvTRiBCMTnYlb4/edit" width= "100%" height= "800px" ></iframe>
+      </div>
+      <div class="modal-body"><a href="file:///Users/parkercatalano/phcart_website/phcart_website/index.html#" class="btn btn-primary" href="#my_modal" data-toggle="modal" data-book-id="my_id_value">next</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal3" tabindex="1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Horror Film</h4>
+        <iframe src="https://docs.google.com/document/d/15Z8F6ZcUXOYyPs6DDqr859YvYVrQdA449SZ0MrbpeqU/edit" width= "100%" height= "800px" ></iframe>
+      </div>
+      <div class="modal-body"><a href="file:///Users/parkercatalano/phcart_website/phcart_website/index.html#" class="btn btn-primary" href="#my_modal" data-toggle="modal" data-book-id="my_id_value">next</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal4" tabindex="2" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">The Body</h4>
+        <iframe src="https://docs.google.com/document/d/1RgLPxUN5Nl4NFxhGhyQjqSpVTAZ7zhHUcRp9LjZg1sI/edit" width= "100%" height= "800px" ></iframe>
+      </div>
+      <div class="modal-body"><a href="file:///Users/parkercatalano/phcart_website/phcart_website/index.html#" class="btn btn-primary" href="#my_modal" data-toggle="modal" data-book-id="my_id_value">next</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal5" tabindex="3" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">CMMU/Prisons</h4>
+        <iframe src="https://docs.google.com/document/d/1EM0mSppTMp5QX4wzmi4rIPFsi-ZQiq1HvImRg4RokTE/edit" width= "100%" height= "800px" ></iframe>
+      </div>
+      <div class="modal-body"><a href="file:///Users/parkercatalano/phcart_website/phcart_website/index.html#" class="btn btn-primary" href="myModal6" data-toggle="modal" data-book-id="my_id_value">next</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModal6" tabindex="4" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Glasswaves</h4>
+        <iframe src="https://docs.google.com/document/d/1eeA2rA-4WeuHhlVVHowS-VLFeHBy_s5v_GMIyzEgpTQ/edit" width= "100%" height= "800px" ></iframe>
+      </div>
+      <div class="modal-body"><a href="file:///Users/parkercatalano/phcart_website/phcart_website/index.html#" class="btn btn-primary" href="#my_modal" data-toggle="modal" data-book-id="my_id_value">next</a>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
   </body>
 </html>

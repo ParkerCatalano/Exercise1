@@ -4,6 +4,8 @@
 
 .img-circle {
   float: left;
+  width:120px;
+  height:120px;
   }
 
 .nav a {
@@ -19,12 +21,12 @@
 }
 
 .jumbotron {
-  background-image:url(http://p1.pichost.me/i/54/1771935.jpg);
+  background-image:url("images/HGMNY2.jpg");
   height: 500px;
-  background-repeat: no-repeat;
   height: 350px;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;;
   background-size: cover;
+  background-size: contain;
 }
 
 .jumbotron .container {
@@ -41,7 +43,7 @@
 
 .jumbotron p {
   font-size: 20px;
-  color: #fff;
+  color: #fff;;
 }
 
 .learn-more {
@@ -56,4 +58,17 @@
 
 .learn-more a {
   color: #00b0ff;
+}
+.learn-more p {
+  text-align: justify;
+}
+h3 {
+margin-left: 2%;
+}
+
+.h3 p {
+  margin-left: 5%;
+}
+.modal-content {
+  width:700px;
 }
